@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server part",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@types/mocha": "^8.2.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^9.0.0",
+    "mongoose": "^5.12.13",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "ajay",
+  "license": "ISC",
+  "main": "server.js",
+  "proxy": "http://localhost:5000"
+}
